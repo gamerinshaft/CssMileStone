@@ -1,3 +1,25 @@
+.scroll-wrap {
+  overflow: hidden;
+}
+
+.scroll {
+  position: relative;
+  overflow: scroll;
+  width: 100%;
+  height: 100%;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  z-index: 99;
+}
+
+.clear{
+  clear: both;
+}
+
+.max-h{
+  height: 100%;
+}
+
 .container {
   max-width: 100%;
   margin-right: auto;
